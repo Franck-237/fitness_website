@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import DarkMode from '../Navbar/DarkMode';
 
 import burger from '../../assets/images/ri_apps-2-line.png';
-import close from '../../assets/images/vector1.png';
+import close from '../../assets/images/Vector1.png';
 
 const Navbar = () => {
 
@@ -36,7 +36,7 @@ const Navbar = () => {
             </div>
             <div>
                 <div className=''>
-                    <ul className={`absolute z-10 bg-[#F8F0FD] top-0 w-[60%] h-[100vh] left-0 text-center text-lg pt-10 font-[poppins] font-medium md:relative md:inline ${nav ? 'left-0 transition-all duration-700' : 'left-[-490px] transition-all duration-700'} md:left-0`}>
+                    <ul className={`absolute z-10 md:bg-[#F8F0FD] bg-[#cfbfd8] top-0 w-[60%] h-[100vh] left-0 text-center text-lg pt-10 font-[poppins] font-medium md:relative md:inline ${nav ? 'left-0 transition-all duration-700' : 'left-[-490px] transition-all duration-700'} md:left-0`}>
                         {
                             Links.map((data) => (
                                 <li key={data.name} className='pt-8 md:pt-0 md:inline-block md:ml-6'>
@@ -56,7 +56,7 @@ const Navbar = () => {
                             nav ? 
                             <img src={close} alt="" />
                              : 
-                             <img src={burger} alt=""  className=''/>
+                             <img src={burger} alt=""  className='text-gray-900'/>
                         }
                     </div>
                 </div>
