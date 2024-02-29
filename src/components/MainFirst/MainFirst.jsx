@@ -13,7 +13,7 @@ const MainFirst = () => {
         <div className='flex flex-col justify-between items-center space-y-5 lg:flex-row lg:gap-5'>
             <div className='flex justify-between items-center gap-1 md:gap-5 pr-6 pb-10'>
                 <p className='font-[poppins] text-2xl md:text-3xl font-bold'>#01</p>
-                <img src={homeHealth} alt="" />
+                <img src={homeHealth} alt="" className='w-[300px] md:w-auto'/>
             </div>
             <div className=''>
                 <img src={star} alt="" className='absolute top-[1350px] md:top-[1180px] lg:top-[900px]'/>
