@@ -13,13 +13,15 @@ const MainThird = () => {
     <div>
         <div className='flex flex-col justify-center items-center lg:flex-row lg:items-start lg:justify-between pb-12 overflow-hidden'>
             <div className='lg:w-1/2'>
-                <h2 className='text-center md:text-start font-bold ont-[poppins] text-2xl md:text-5xl py-5'>Anytime, Any Place, Any Workout</h2>
+                <h2 className='text-center lg:text-start font-bold font-[poppins] text-2xl md:text-3xl lg:text-5xl py-5'>Anytime, Any Place, Any Workout</h2>
                 <p className='text-center lg:text-start font-medium font-[poppins] text-lg lg:text-2xl pt-5 pb-5 lg:pb-10'>
                     Take your routine at any time of your day, with the new videos and with the teachers who will guide you.
                 </p>
-                <Button>
-                Get started free <span><img src={fleche} alt="" /></span>
-                </Button>
+                <div className='py-5'>
+                    <Button>
+                    Get started free <span><img src={fleche} alt="" /></span>
+                    </Button>
+                </div>
             </div>
             <div className='pt-10 md:pt-0'>
                 <div >
@@ -32,7 +34,7 @@ const MainThird = () => {
                 </div>
                 <div>
                     <div>
-                        <img src={box2} alt="" className='absolute mr-[300px] pt-[270px] md:pt-[320px] lg:mr-[400px]'/>
+                        <img src={box2} alt="" className='absolute mr-[400px] pt-[270px] md:pt-[320px] lg:mr-[400px]'/>
                     </div>
                     <div>
                         <img src={rout2} alt="" className='w-[300px] md:w-[400px] pt-36'/>

@@ -24,7 +24,7 @@ const MainSecond = () => {
                 If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.
                 </p>
                 <Button>
-                Get started free <span><img src={fleche} alt="" /></span>
+                    Get started free <span><img src={fleche} alt="" /></span>
                 </Button>
             </div>
         </div>

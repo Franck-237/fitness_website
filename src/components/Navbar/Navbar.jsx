@@ -41,7 +41,7 @@ const Navbar = () => {
                             Links.map((data) => (
                                 <li key={data.name} className='pt-8 md:pt-0 md:inline-block md:ml-6'>
                                     <a href={data.link} 
-                                    className='focus:txt_grad hover:txt_grad'
+                                    className='hover:txt_grad'
                                     >
                                         {data.name}
                                     </a>
